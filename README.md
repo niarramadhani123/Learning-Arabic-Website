@@ -98,16 +98,6 @@
         <li><strong>المبتدأ والخبر:</strong> الطالبُ مجتهدٌ.</li>
         <li><strong>أسماء الإشارة:</strong> هذا كتاب - هذه معلمة - هؤلاء طلاب</li>
         <li><strong>الفعل الماضي والمضارع:</strong> كتبَ - يكتبُ / أكلَ - يأكلُ</li>
-      </ul>
-    </section>
-  </main>
-
-</body>
-</html>
-    </section>
-    <section>
-    </section>
-  </main>
   <footer>
     <p>&copy; 2025 تصميم: Niar Ramadhani</p>
   </footer>
