@@ -1,5 +1,4 @@
 # Learning-Arabic-Website
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
@@ -26,7 +25,6 @@
   </footer>
 </body>
 </html>
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
