@@ -7,7 +7,6 @@
   </header>
   <main>
     <section>
-      <h2>المفردات</h2><!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
