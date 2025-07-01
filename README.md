@@ -1,5 +1,3 @@
-Learning-Arabic-Website 
-<مرحبا بكم في هذا الموقع>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
