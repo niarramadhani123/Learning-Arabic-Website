@@ -308,8 +308,7 @@
     <a href="quiz.html">الاختبار</a>
     <a href="videos.html">الفيديو</a>
   </nav>
-
-  <main>
+<main>
     <section>
       <h2>📘 المفردات</h2>
       <ul>
@@ -317,9 +316,7 @@
         <li>الأب - الأم - الأخ - الأخت - العائلة</li>
         <li>اليوم - الغد - الأمس - ساعة - دقيقة</li>
       </ul>
-    </section>
-
-    <section>
+  <section>
       <h2>💬 الحوار</h2>
       <p><strong>علي:</strong> السلام عليكم<br>
       <strong>أحمد:</strong> وعليكم السلام<br>
@@ -454,7 +451,95 @@
       document.getElementById('result').textContent = `نتيجتك: ${score} من 3`;
     }
   </script>
+</body><!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>فيديوهات تعليمية</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    header, footer {
+      background-color: #008080;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 30px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .video-card {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      padding: 15px;
+    }
+    .video-card iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+    }
+    .video-card h3 {
+      margin: 10px 0 5px;
+      font-size: 18px;
+      color: #00695c;
+    }
+    .video-card p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>فيديوهات تعليم اللغة العربية</h1>
+    <p>استمتع بمقاطع الفيديو التعليمية المتنوعة لدعم تعلمك</p>
+  </header>
+
+  <main>
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/v1v5J4NQYXg" frameborder="0" allowfullscreen></iframe>
+      <h3>مفردات المدرسة</h3>
+      <p>تعلم أهم كلمات الصف والمدرسة بالصوت والصورة.</p>
+    </div>
+
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/OGiR9qE_K4s" frameborder="0" allowfullscreen></iframe>
+      <h3>حوار يومي في المنزل</h3>
+      <p>مشاهدة حوار سهل بين أفراد العائلة باللغة العربية.</p>
+    </div>
+
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/VBGU_m8LnsU" frameborder="0" allowfullscreen></iframe>
+      <h3>قواعد اللغة: الجملة الاسمية</h3>
+      <p>فهم المبتدأ والخبر مع أمثلة مرئية ومبسطة.</p>
+    </div>
+
+    <div class="video-card">
+      <iframe src="https://www.youtube.com/embed/mGMJ0gMaN4M" frameborder="0" allowfullscreen></iframe>
+      <h3>قراءة نصوص بسيطة</h3>
+      <p>نص عربي مع قراءة صوتية وأسئلة لفهم المقروء.</p>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 منصة تعلم العربية | تصميم: نيار رمضانى
+  </footer>
 </body>
+</html>
+
 </html>
   </main>
   <footer>
