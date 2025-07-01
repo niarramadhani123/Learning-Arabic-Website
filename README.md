@@ -10,10 +10,6 @@
   <header>
     <h1>مرحبًا بك في موقع تعلم اللغة العربية</h1>
   </main>
-  <footer>
-</body>
-</html>
-<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
