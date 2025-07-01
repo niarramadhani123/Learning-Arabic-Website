@@ -1,7 +1,5 @@
  <title>تعلم اللغة العربية</title>
   <link rel="stylesheet" href="style.css" />
-</head>
-<body>
     <h1>مرحبًا بك في موقع تعلم اللغة العربية</h1>content="width=device-width, initial-scale=1.0">
   <title>الدروس - تعلم اللغة العربية</title>
   <link rel="stylesheet" href="style.css">
