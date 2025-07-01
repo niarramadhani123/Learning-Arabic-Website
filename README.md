@@ -347,6 +347,115 @@
       <h2>الحوار</h2>
       <p>استمع وتمرن على المحادثات.</p>
     </section>
+    <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اختبار المفردات</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #008080;
+    }
+    .quiz-container {
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+    button {
+      padding: 10px 20px;
+      background: #008080;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: center;
+      color: #00695c;
+    }
+  </style>
+</head>
+<body>
+  <h1>اختبار المفردات</h1>
+  <div class="quiz-container">
+    <form id="quizForm">
+      <div class="question">
+        <h2>١. ما معنى كلمة "المدرسة"؟</h2>
+        <div class="options">
+          <label><input type="radio" name="q1" value="0"> المسجد</label>
+          <label><input type="radio" name="q1" value="1"> المدرسة</label>
+          <label><input type="radio" name="q1" value="0"> السوق</label>
+          <label><input type="radio" name="q1" value="0"> المكتب</label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>٢. ما معنى كلمة "الكتاب"؟</h2>
+        <div class="options">
+          <label><input type="radio" name="q2" value="1"> الكتاب</label>
+          <label><input type="radio" name="q2" value="0"> الباب</label>
+          <label><input type="radio" name="q2" value="0"> النافذة</label>
+          <label><input type="radio" name="q2" value="0"> الحقيبة</label>
+        </div>
+      </div>
+      <div class="question">
+        <h2>٣. ما معنى كلمة "المعلم"؟</h2>
+        <div class="options">
+          <label><input type="radio" name="q3" value="1"> المعلم</label>
+          <label><input type="radio" name="q3" value="0"> الطالب</label>
+          <label><input type="radio" name="q3" value="0"> المدير</label>
+          <label><input type="radio" name="q3" value="0"> الحارس</label>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <button type="button" onclick="checkAnswers()">تحقق من الإجابات</button>
+      </div>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    function checkAnswers() {
+      const form = document.forms['quizForm'];
+      let score = 0;
+      for (let i = 1; i <= 3; i++) {
+        const q = form[`q${i}`];
+        for (let j = 0; j < q.length; j++) {
+          if (q[j].checked && q[j].value === "1") {
+            score++;
+          }
+        }
+      }
+      document.getElementById('result').textContent = `نتيجتك: ${score} من 3`;
+    }
+  </script>
+</body>
+</html>
   </main>
   <footer>
     <p>&copy; 2025 تصميم: Niar Ramadhani</p>
